@@ -1,0 +1,16 @@
+{
+    "name": "Dashtag",
+    "description": "Aggregate twitter and instagrams posts by hastags and usernames",
+    "website": "https://github.com/emp7y/dashtag",
+    "repository": "https://github.com/emp7y/dashtag",
+    "success_url": "/",
+    "keywords": [
+        "Social",
+        "twitter",
+        "instagram"
+    ],
+    "scripts": {
+        "postdeploy": "bundle exec rake db:migrate"
+    },
+    "addons": ["heroku-postgresql"]
+}
