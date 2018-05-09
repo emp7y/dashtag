@@ -9,7 +9,7 @@ Check out the example of Hashtag Displayer [here on our demo site](https://dasht
 To Deploy To Heroku
 -------------------
  Simply put the environment variables, as described below, into Heroku's dashboard after hitting the Deploy to Heroku Button above.
- [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/emp7y/dashtag_solo.git)
+ [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/emp7y/dashtag.git)
 
 
 Environment Variables
