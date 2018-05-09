@@ -15,7 +15,7 @@ class { 'rbenv':
 class {"phantomjs":}
 
 rbenv::plugin { 'sstephenson/ruby-build': }
-rbenv::build { '2.1.3': global => true }
+rbenv::build { '2.3.3': global => true }
 
 file { "/home/vagrant/bundle" :
   ensure => directory,
