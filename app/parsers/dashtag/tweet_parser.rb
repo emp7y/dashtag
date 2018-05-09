@@ -48,7 +48,7 @@ module Dashtag
                                 text: text,
                                 screen_name: screen_name,
                                 time_of_post: tweet["created_at"],
-                                profile_image_url: tweet["user"]["profile_image_url"],
+                                profile_image_url: tweet["user"]["profile_image_url_https"],
                                 media_url: get_media_url(tweet),
                                 post_id: tweet["id_str"] }
           end
